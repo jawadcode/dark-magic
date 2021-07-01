@@ -1,3 +1,6 @@
+#![allow(non_ascii_idents)]
+#![allow(uncommon_codepoints)]
+
 #[rustfmt::skip]
 fn transmute<ㅡ,ㅣ>(ㆍ:ㅡ)->ㅣ{
     trait ㅗ:ㅿ<ㅡ=<Self as ㅿ>::ㅣ>{}
